@@ -1,0 +1,18 @@
+How to run--
+>Open project
+>Check your chrome driver version and download same jar
+>change the chromedriver jar file location.
+>mention correct path chromedriver jar in system.set property
+>open testng.xml
+>right click -->run as testNg
+
+
+Test Strategy-->
+This is a simple TestNg framework i have used.
+Used testNg for the page design and create multiple test cases for each test cases.
+and run this test using testNg annotation(@Test)
+In @beforemethod we have open URl and maximize the window and same in @aftermethod driver will quit after each test case execution
+for some element like consent radio button and submit we have use explicit wait to make load element properly.
+
+Also used softassert class to assert the test cases.
+
